@@ -9,7 +9,7 @@ article div img{
 }
 article{
     background: #edede9;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px;
 }
 button{
@@ -17,4 +17,7 @@ button{
     font-size: 30px;
     border-radius: 8px;
     cursor: pointer;
+}
+#surprise{
+    margin-top: 10px;
 }
