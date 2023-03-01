@@ -4,56 +4,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review-Carousel</title>
+    <!-- Google Fonts Embedded Code -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <!-- Font awesome embedded code -->
+    <script src="https://kit.fontawesome.com/93aaa97374.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
-    
     <main>
-
-        <div id="reviews">
-            Our Reviews
-        </div>
-
-        <article>
-            <div id="images">
-                <img src="pedri-img.webp" alt="">
+        <section class="container">
+                <!-- Title -->
+            <div class="title">
+                <h2>Our Reviews</h2>
             </div>
-
-            <h3 id="name">PEDRI GONZALEZ</h3>
-            <p id="occupation">FOOTBALLER</p>
-
-            <p id="review"> 
-                Lorem ipsum dolor, 
-                sit amet consectetur adipisicing elit.
-                Minus, a corrupti! Quibusdam, itaque esse. 
-                Porro aut, voluptate provident error, 
-                eaque tempora quo suscipit sed vel esse repellat hic 
-                exercitationem perspiciatis.
-            </p>
-
-            <div>
-                <button class="material-symbols-outlined left">
-                    chevron_left
-                </button>
-
-
-                <button class="material-symbols-outlined right">
-                    chevron_right
-                </button>
-            </div>
-
-
-            <button id="surprise">Suprise Me</button>
-        </article>
-
-           
+            <!-- Review -->
+            <article class="review">
+                <div class="img-container">
+                    <!-- Review image -->
+                    <img src="pedri-img.webp" id="images" alt="">
+                </div>
+                <!-- Review name -->
+                <h3 id="name">PEDRI GONZALEZ</h3>
+                <!-- Review occupation -->
+                <p id="occupation">FOOTBALLER</p>
+                <!-- Review info -->
+                <p id="review-in  fo"> 
+                    Lorem ipsum dolor, 
+                    sit amet consectetur adipisicing elit.
+                    Minus, a corrupti! Quibusdam, itaque esse. 
+                    Porro aut, voluptate provident error, 
+                    eaque tempora quo suscipit sed vel esse repellat hic 
+                    exercitationem perspiciatis.
+                </p>
+                <!-- Prev-Next Buttons -->
+                <div class="btn-container">
+                    <!-- Left-Btn -->
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <!-- Right-Btn -->
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <!-- Random Button -->
+                <button class="footer">Suprise Me</button>
+            </article>
+        </section> 
     </main>
-
-
     <script src="scripts.js"></script>
 </body>
 </html>
