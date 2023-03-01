@@ -2,25 +2,33 @@ body{
     text-align: center;
     font-family: 'Golos Text', sans-serif;
     font-size: 21px;
+    background: #ffffff;
 }
-/* article div img{
+h2{
+    margin-top: 5%;
+}
+.review{
+    background: #f2f4f3;
+    /* margin-top: 13%; */
+    margin: 3px;
+
+}
+.img-container img{
     width: 20%;
-    border-radius: 50%;
+    border-radius: 20%;
 }
-article{
-    background: #edede9;
-    margin-top: 20px;
-    padding: 10px;
+#review-info{
+    font-size: .9em;
 }
-button{
-    padding: 10px;
-    font-size: 30px;
-    border-radius: 8px;
+.btn-container{
+    font-size: 1.5em;
+    padding: 3px;
     cursor: pointer;
 }
-#surprise{
-    margin-top: 10px;
-} */
-
-
-/* font at 21px */
+.footer{
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0px;
+    font-size: 0.9em;
+}
