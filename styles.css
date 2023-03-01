@@ -1,9 +1,9 @@
 body{
     text-align: center;
-    font-family: 'Barlow', sans-serif;
-    font-size: 30px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 21px;
 }
-article div img{
+/* article div img{
     width: 20%;
     border-radius: 50%;
 }
@@ -20,4 +20,7 @@ button{
 }
 #surprise{
     margin-top: 10px;
-}
+} */
+
+
+/* font at 21px */
