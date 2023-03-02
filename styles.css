@@ -17,6 +17,12 @@ h2{
     width: 20%;
     border-radius: 20%;
 }
+p#occupation,
+.btn-container,
+.footer
+{
+    color: lightblue;
+}
 #review-info{
     font-size: .9em;
 }
@@ -24,6 +30,7 @@ h2{
     font-size: 1.5em;
     padding: 3px;
     cursor: pointer;
+    
 }
 .footer{
     padding: 10px;
@@ -31,4 +38,5 @@ h2{
     cursor: pointer;
     margin: 10px 0px;
     font-size: 0.9em;
+    border: 2px solid lightblue;
 }
