@@ -5,7 +5,7 @@ body{
     background: #ffffff;
 }
 h2{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .review{
     background: #f2f4f3;
@@ -14,8 +14,9 @@ h2{
 
 }
 .img-container img{
-    width: 20%;
-    border-radius: 20%;
+    margin-top: 5px;
+    width: 40%;
+    border-radius: 50%;
 }
 p#occupation,
 .btn-container,
