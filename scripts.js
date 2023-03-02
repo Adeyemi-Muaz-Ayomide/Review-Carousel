@@ -7,7 +7,7 @@ const reviews = [
         image: 
                 "Tinubu-img.webp",
         review: 
-                'Lorem ipsum dolor,sit amet consectetur adipisicing elit.Minus, a corrupti! Quibusdam, itaque esse. Porro aut, voluptate provident erroreaque tempora.'        
+                'Lorem ipsum dolor,sit amet consectetur adipisicing elit.Minus, a corrupti!'        
     },  
     {
         id: 2,
@@ -16,7 +16,7 @@ const reviews = [
         image: 
                  'peter-drury.jpg',
         review: 
-                'Quibusdam, itaque esse. Porro aut, voluptate provident erroreaque tempora quo suscipit sed vel esse repellat hic exercitationem perspiciatis.'        
+                'Quibusdam, itaque esse. Porro aut, voluptate provident erroreaque tempora'        
     }, 
     {
         id: 3,
@@ -25,16 +25,16 @@ const reviews = [
         image: 
                  'Elon_Musk.jpg',
         review: 
-                'Dolor,sit amet consectetur adipisicing elit.Minus, a corrupti! Quibusdam, itaque esse. Porro aut, voluptate provident erroreaque tempora quo'        
+                'Dolor,sit amet consectetur adipisicing elit.Minus, a corrupti! Quibusdam'        
     },   
     {
         id: 4,
-        name: 'Lionel Andres Santos Bareto Cuccetinni Messi',
+        name: 'Lionel Andres Messi',
         occupation: 'Footballer(World Cup Winner)',
         image: 
                  'messi.jpg',
         review: 
-                'Sit amet consectetur adipisicing elit, a corrupti! Voluptate provident erroreaque tempora quo suscipit exercitationem perspiciatis.'        
+                'Sit amet consectetur adipisicing elit, a corrupti! Voluptate provident e'        
     }     
 ];
 

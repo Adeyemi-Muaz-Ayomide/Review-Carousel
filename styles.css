@@ -3,6 +3,7 @@ body{
     font-family: 'Golos Text', sans-serif;
     font-size: 21px;
     background: #ffffff;
+    
 }
 h2{
     margin-top: 3%;
@@ -15,8 +16,9 @@ h2{
 }
 .img-container img{
     margin-top: 5px;
-    width: 40%;
+    width: 45%;
     border-radius: 50%;
+    text-decoration: none;
 }
 p#occupation,
 .btn-container,
